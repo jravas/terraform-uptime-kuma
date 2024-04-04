@@ -8,8 +8,7 @@ terraform {
 }
 
 provider "docker" {
-  // docker context ls 
-  host = "unix:///Users/jravas/.docker/run/docker.sock"
+  # HINT: docker context ls 
 }
 
 resource "docker_image" "image" {
